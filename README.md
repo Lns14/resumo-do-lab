@@ -80,3 +80,52 @@ Facilidade no gerenciamento dos recursos em nuvem, seja via interface gráfica o
 - **Provedor:** Infraestrutura, servidores físicos, rede e data centers.
 - **Cliente:** Aplicações, controle de identidade e diretórios, contas e identidades.
 
+  ## Regiões
+
+Ao criar um recurso, você escolhe onde alocar. Deve verificar se sempre deve haver uma resposta, por exemplo, ou custo. 
+As regiões são compostas por um ou mais datacenters muito próximos.
+
+### Zona de Disponibilidade
+Os datacenters de uma região formam uma zona de disponibilidade. 
+Exemplo: se um datacenter falhar, outro assume. 
+Se houver três datacenters, os serviços essenciais devem estar ativos em pelo menos um deles.
+
+### Região
+Fornece flexibilidade e escalabilidade para reduzir a latência do cliente. 
+Tudo é replicado entre os datacenters para que, independentemente de uma falha, a resposta seja garantida. 
+No Brasil, isso é feito para assegurar disponibilidade. Essa replicação é automática para alguns serviços.
+
+### Regiões Soberanas
+São áreas exclusivas, como a China, operadas pela 21Vianet.
+
+## Recursos do Azure
+
+- Máquinas virtuais
+- Contas de armazenamento
+- Redes virtuais
+- Serviços de aplicativo
+
+### Exemplos
+- Por categoria, por projetos.
+- Podem estar em regiões diferentes.
+- Só podem existir dentro de um grupo.
+
+## Assinaturas do Azure
+
+Uma conta pode ter diversas assinaturas, porém, cada assinatura deve estar vinculada a apenas uma conta.
+
+### Tipos de Assinaturas
+- Assinatura por projeto
+- Assinatura de desenvolvimento
+- Assinatura de produção (uso dos usuários)
+- Assinatura de teste
+
+Cada assinatura tem uma cobrança específica.
+Uma assinatura do Azure fornece acesso autenticado e autorizado às contas do Azure.
+
+### Limite de Acesso
+Permite gerenciar e controlar o acesso aos recursos que os usuários podem provisionar.
+
+### Gerenciamento
+Aplica-se a grupos de gerenciamento.
+
