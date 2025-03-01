@@ -55,3 +55,28 @@ Facilidade no gerenciamento dos recursos em nuvem, seja via interface gráfica o
   - Gerenciamento via **portal web (UI)**.  
   - Administração via **linha de comando (CLI)** ou **API**.  
 
+
+# Tipos de Serviços
+
+## IaaS (Infrastructure as a Service)
+- **Exemplo:** Infraestrutura como serviço
+- **Descrição:** Recursos com maior personalização. São versões de infraestrutura sob demanda, incluindo serviços de armazenamento e redes.
+
+## PaaS (Platform as a Service)
+- **Exemplo:** Elastic Beanstalk
+- **Descrição:** Plataforma como serviço. O usuário não precisa se preocupar com a infraestrutura. Oferece um ambiente completo para desenvolvimento, execução e gerenciamento de aplicações, sem a necessidade de gerenciar a infraestrutura.
+
+## SaaS (Software as a Service)
+- **Exemplo:** Microsoft 365
+- **Descrição:** Software como serviço. Aplicações fornecidas como um serviço acessado pela internet, sem a necessidade de instalação.
+
+---
+
+## Modelo de Responsabilidade Compartilhada
+- **Infraestrutura:** O provedor é responsável pela infraestrutura física, como servidores, redes e data centers.
+- **Cliente:** O cliente é responsável pela gestão de aplicações, controle de virtualização, identidade e diretórios.
+
+### Exemplo:
+- **Provedor:** Infraestrutura, servidores físicos, rede e data centers.
+- **Cliente:** Aplicações, controle de identidade e diretórios, contas e identidades.
+
