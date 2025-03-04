@@ -1,4 +1,1 @@
-![Teste 1](teste_copilot/teste1.png)
-![Teste 2](teste_copilot/teste2.png)
-![Teste 3](teste_copilot/teste3.png)
-
+Diante dos testes anexados nessa pasta (teste_copilot/) notei que o copilot traz insights bem robustos, com sugestões da internet e faz sugestões baseadas na sua solicitação (como no caso da pergunta "Quais ferramentas posso usar para gerenciar ambientes multicloud?") usando tokenização e inserções para prever uma próxima pergunta dentro do mesmo contexto.
