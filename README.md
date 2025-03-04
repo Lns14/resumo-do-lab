@@ -129,3 +129,12 @@ Permite gerenciar e controlar o acesso aos recursos que os usuários podem provi
 ### Gerenciamento
 Aplica-se a grupos de gerenciamento.
 
+# Passo a Passo do Azure Search
+
+1. Criar um novo recurso. Azure AI Search  
+2. Criar um novo recurso. Azure AI Services
+3. Criar uma Storage Account
+4. Criar novo contêiner
+5. Fazer o upload dos arquivos no contêiner
+6. Importar os dados no AI Search
+7. Realizar busca, ex: search = locations: 'Chicago' (o resultado vem em JSON)
